@@ -7,6 +7,21 @@ def main():
     Code Your Program here
     ########################################
     """
+   
+    minval= num1 
+    minval= num2 if num2<= minval else minval
+    minval= num3 if num3<= minval else minval
+    ########################################
+    maxval= num1 
+    maxval= num2 if num2>= maxval else maxval
+    maxval= num3 if num3>= maxval else maxval
+    
+    #########################################
+    median= num1
+    median= num1 if minval<num1 and maxval>num1 else median
+    median= num2 if minval<num2 and maxval>num2 else median
+    median= num3 if minval<num3 and maxval>num3 else median    
+
 
     print(minval, median, maxval)
     ########################################
